@@ -46,5 +46,35 @@ public class Task2 {
 
         } while (!done);
 
+        if (numOne == numTwo) {
+
+            if (numTwo == numThree) {
+
+                System.out.println("Equal");
+
+            }
+
+        }
+
+        else if (numOne != numTwo) {
+
+            if (numTwo != numThree) {
+
+                if (numOne != numThree) {
+
+                    System.out.println("Different");
+
+                }
+
+            }
+
+        }
+
+        else {
+
+            System.out.println("Neither");
+
+        }
+
     }
 }
